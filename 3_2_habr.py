@@ -8,3 +8,4 @@ for line in f1.readlines():
 f2.close()
 f1.close()
 print(i)
+print(i)

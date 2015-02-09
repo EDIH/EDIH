@@ -1,0 +1,39 @@
+/*css reset*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*end css reset*/
+.multslider{
+    margin: 20px auto;
+    width:1200px;
+    height: 336px;
+    position: relative;
+}
+.multslider ul li{
+    opacity: 0;
+    position: absolute;
+    transition: 1s;
+    list-style-type: none;
+}
+.nav input{
+    cursor: pointer;
+    width: 35px;
+    height: 80px;
+    position: absolute;
+    top: 128px;
+    border: none;
+    /*opacity:.5;*/
+    outline: none;
+}
+.nav input:hover{
+    background-position-y: 80px;
+}
+.prev{
+    background: url(slider-images/arrow_sl_left.png);
+    left: 15px;
+}
+.next{
+    background: url(slider-images/arrow_sl_right.png);
+    right: 15px;
+}
